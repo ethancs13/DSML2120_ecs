@@ -4,20 +4,24 @@ from pathlib import Path
 st.title("👋 My Bio")
 
 # ---------- TODO: Replace with your own info ----------
-NAME = "Your Name"
-PROGRAM = "Your Program / Major / Role"
+NAME = "Ethan Sroka"
+PROGRAM = "Data Science / Machine Learning"
 INTRO = (
-    "Write 2–3 sentences about yourself: what you’re studying/working on, "
-    "what excites you about data visualization or computing, etc."
+    "I'm a Data Science & Machine Learning student at MSU Denver, and I also work as a full-stack "
+    "developer on Roadrunner Connect, MSU Denver's campus engagement app. On the side I've been "
+    "building an interactive map of Denver's power grid that shows where the grid is out of "
+    "capacity and which neighborhoods are most cost-burdened. What excites me about data "
+    "visualization is how much a design choice changes what people believe, whether it's a "
+    "truncated axis on a misleading chart or a map that finally makes public data easy to understand."
 )
 FUN_FACTS = [
-    "I love …",
-    "I’m learning …",
-    "I want to build …",
+    "I love turning messy public data into visuals people can actually understand, like the interactive map of Denver's power grid I've been building that shows where the grid is full and which neighborhoods are most cost-burdened.",
+    "I'm learning data science and machine learning at MSU Denver while working as a full-stack developer on Roadrunner Connect, the university's campus engagement app.",
+    "I want to build tools that help cities and residents make better decisions, starting with a map that shows where Denver has room to grow without raising everyone's energy bills.",
 ]
 
 
-PHOTO_PATH = "your_photo.jpg"  # Put a file in repo root or set a URL
+PHOTO_PATH = "my_photo.jpg"  # Put a file in repo root or set a URL
 
 
 def find_photo(filename=PHOTO_PATH):
